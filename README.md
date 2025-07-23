@@ -53,7 +53,7 @@ A modern, Instagram-like real-time chat application built with React, Node.js, S
 
 ### 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/rismzun/heychat.git
 cd heychat
 ```
 
@@ -91,6 +91,11 @@ MONGODB_URI=mongodb://localhost:27017/heychat
 JWT_SECRET=your_super_secret_jwt_key_here
 JWT_EXPIRE=7d
 BCRYPT_SALT_ROUNDS=12
+```
+
+### Frontend (.env)
+```env
+VITE_API_BASE_URL=http://localhost:5000/api
 ```
 
 ## Usage
