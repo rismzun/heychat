@@ -96,6 +96,7 @@ BCRYPT_SALT_ROUNDS=12
 ### Frontend (.env)
 ```env
 VITE_API_BASE_URL=http://localhost:5000/api
+VITE_SOCKET=http://localhost:5000
 ```
 
 ## Usage
