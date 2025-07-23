@@ -32,8 +32,8 @@ export const SocketProvider = ({ children }) => {
 
     if (isAuthenticated && token && !socket) {
       console.log('Initializing socket connection...');
-      
-      newSocket = io('http://localhost:5000', {
+
+      newSocket = io(import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000', {
         auth: {
           token: token
         },
